@@ -1,1 +1,2 @@
-# Parcial_1
+# “Lectura de cadena RNA
+#contexto:
