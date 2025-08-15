@@ -1,0 +1,17 @@
+reference = "AUGGUAGCACCU"
+mRNA1 = "AUGGUGCACCU"
+mRNA2 = "AUGGUGCACCU"
+mRNA3 = "AUGGUGCACCU"
+mRNA4 = "AUGAGUCACCU"
+
+salud =str(f'{mRNA1}\t{mRNA2}\t{mRNA3}\t{mRNA4}')
+          
+print(f'La cadena de referencia es: {reference}')
+print('el numero total de secuencias es 5')
+if reference in salud:
+    estado = "Saludable"
+    print('Sin indicios de variación hereditaria')
+else:
+    estado = "Enfermo"
+    print(f'Probable enfermedad hereditaria')
+    print(f'Las cadenas distintas son:\t{salud}')
